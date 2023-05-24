@@ -1,0 +1,50 @@
+.market {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.market-card {
+  min-width: 270px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.market-card > p{
+    font-size: 25px;
+}
+
+.market-card > img {
+  display: block;
+  margin: auto;
+}
+
+.card-detail {
+  display: block;
+}
+.card-detail > p {
+  font-size: 20px;
+}
+
+.card-detail > .buy {
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+  color: #75c095;
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.5s;
+  border: 1px solid #75c095;
+}
+
+.card-detail > .buy:hover {
+  background-color: #75c095;
+  color: #fff;
+  transition: 0.5s;
+}

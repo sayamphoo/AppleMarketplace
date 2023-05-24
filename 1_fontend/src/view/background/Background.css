@@ -1,0 +1,13 @@
+.back {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+
+.back > img {
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+}

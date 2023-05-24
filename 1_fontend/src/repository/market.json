@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "name": "iPhoneX",
+    "title": "",
+    "img": "https://www.techxcite.com/products/1200/gallery/iphone-x-gray-select-2017.jpg",
+    "description": {
+      "price": ["300", "400", "400", "400"],
+      "model": ["iPhoneX", "iPhone X Pro", "iPhone X Pro Max"],
+      "capacity": ["64GB", "128GB", "256GB"],
+      "color": ["RED", "White", "Black", "Green", "Yellow", "Purple"]
+    }
+  },
+  {
+    "id": 1,
+    "name": "iPhone 11",
+    "title": "",
+    "img": "https://buriramsupply.com/wp-content/uploads/2022/04/iphone-11.jpg",
+    "description": {
+      "price": ["300", "400", "400", "400"],
+      "model": ["iPhone 11", "iPhone 11 Pro", "iPhone 11 Pro Max"],
+      "capacity": ["64GB", "128GB", "256GB"],
+      "color": ["RED", "White", "Black", "Green", "Yellow", "Purple"]
+    }
+  },
+  {
+    "id": 2,
+    "name": "iPhone 12",
+    "title": "",
+    "img": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71ZOtNdaZCL._SL1500_.jpg",
+    "description": {
+      "price": ["300", "400", "400", "400"],
+      "model": ["iPhone 12", "iPhone 12 Pro", "iPhone 12 Pro Max"],
+      "capacity": ["64GB", "128GB", "256GB"],
+      "color": ["RED", "White", "Black", "Green", "Yellow", "Purple"]
+    }
+  },
+  {
+    "id": 3,
+    "name": "iPhone 13",
+    "title": "",
+    "img": "https://d1dtruvuor2iuy.cloudfront.net/media/catalog/product/i/p/iphone_13_pro_color_graphite_1__3.jpg",
+    "description": {
+      "price": ["300", "400", "400", "400"],
+      "model": ["iPhone 13", "iPhone 13 Pro", "iPhone 13 Pro Max"],
+      "capacity": ["64GB", "128GB", "256GB"],
+      "color": ["RED", "White", "Black", "Green", "Yellow", "Purple"]
+    }
+  },
+  {
+    "id": 4,
+    "name": "iPhone 14",
+    "title": "",
+    "img": "https://store.ais.co.th/media/catalog/product/i/p/iphone_14_midnight_850x850_6_1.jpg",
+    "description": {
+      "price": ["300", "400", "400", "400"],
+      "model": ["iPhone 14", "iPhone 14 Pro", "iPhone 14 Pro Max"],
+      "capacity": ["64GB", "128GB", "256GB"],
+      "color": ["RED", "White", "Black", "Green", "Yellow", "Purple"]
+    }
+  }
+]

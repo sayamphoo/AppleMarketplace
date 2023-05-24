@@ -1,0 +1,61 @@
+form > textarea,input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #c8c8c8;
+}
+
+form > input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #75c095;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.payment {
+  cursor: pointer;
+  width: 100%;
+  padding: 5px;
+  transition:  0.15s;
+  border: 1px solid #a0a0a0;
+  border-radius: 5px;
+}
+
+.payment-dropdown {
+  overflow: hidden;
+  width: 100%;
+  transition: height 0.15s;
+  background-color: #ffffff;
+}
+
+.none-select-pament {
+  text-align: center;
+  padding: 5px;
+  color: #454545;
+  border: 1px dashed #b3b3b3;
+}
+
+.select-pament {
+  height: 35px;
+  display: flex;
+  padding: 5px;
+  flex-wrap: nowrap;
+  align-items: center;
+  color: #454545;
+}
+
+.select-pament > span {
+  padding-left: 10px;
+}
+
+
+
+.payment-show {
+  visibility: visible;
+}
+
+.payment-hide {
+ visibility: hidden;
+}

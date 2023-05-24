@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fbfbfb;
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+}
+
+.fs-16 {
+  font-size: 25px;
+}
+
+.y-scroll,
+body {
+  overflow-y: scroll;
+}
+
+.y-scroll::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.y-scroll,
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.hide {
+  height: 0px;
+  transition: height 0.15s;
+}
+
+.show {
+  height: 100px;
+  transition: height 0.15s;
+}
