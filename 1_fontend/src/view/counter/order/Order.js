@@ -89,7 +89,7 @@ export default (props) => {
           imageAlt: "Custom image",
         })
           .then(() => {
-            axios.post("http://127.0.0.1:3001/", {
+            axios.post("http://54.172.126.188:5000/sendemail", {
               model: orders.model,
               capacity: orders.capacity,
               color: orders.color,

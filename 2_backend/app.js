@@ -9,14 +9,14 @@ app.use(cors())
 app.use(bodyParser.json());
 
 // Routes
-app.post("/", (req, res) => {
+app.post("/sendemail", (req, res) => {
   const { model, capacity, color, quantity, address, email, payment } =
     req.body;
   const transporter = nodemailer.createTransport({
     service: "Gmail",
     auth: {
       user: "Sayamphoo.nyd@g.swu.ac.th",
-      pass: "Sa140945",
+      pass: " ",
     },
   });
 
@@ -142,7 +142,7 @@ app.post("/", (req, res) => {
 
   const mailOptions = {
     from: "Sayamphoo.nyd@g.swu.ac.th",
-    to: "Sayamphoo781@gmail.com",
+    to: email,
     subject: "Confirm Order",
     html: html,
   };
@@ -159,6 +159,6 @@ app.post("/", (req, res) => {
 });
 
 // Start the server
-app.listen(3001, () => {
+app.listen(5000, () => {
   console.log("Server is running on port 3000");
 });
