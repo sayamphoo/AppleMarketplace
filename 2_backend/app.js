@@ -15,8 +15,8 @@ app.post("/sendemail", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "Gmail",
     auth: {
-      user: "Sayamphoo.nyd@g.swu.ac.th",
-      pass: " ",
+      user: "email",
+      pass: "password",
     },
   });
 
